@@ -1,0 +1,76 @@
+.container {
+  height: 48em;
+}
+
+.info-about {
+  border-style: solid;
+  border-color: #5f4c4c;
+  height: 45em;
+  color: #2f2626;
+  margin: 0 1.6em;
+  background-color: #635d5c;
+}
+
+.info-about p {
+  font-size: 1.125em;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  color: yellowgreen;
+}
+
+.about-us-msg {
+  text-indent: 1em;
+  line-height: 1.5em;
+  background-color: #f5deb3;
+  height: 11em;
+  width: 23em;
+  border-radius: 1em;
+  font-family: sans-serif;
+  padding: 0.7em;
+  box-shadow: 2.5px 5px 4px 5px #2f2626;
+}
+
+.about-us-msg2 {
+  text-indent: 1em;
+  line-height: 1.5em;
+  float: right;
+  background-color: #f5deb3;
+  height: 14em;
+  width: 18em;
+  border-radius: 1em;
+  font-family: sans-serif;
+  padding: 0.7em;
+  margin-right: 4em;
+  margin-top: 2.7em;
+  box-shadow: 2.5px 5px 4px 5px #2f2626;
+}
+
+.about-content {
+  margin-left: 3em;
+}
+
+.about-content img:nth-child(4) {
+  float: left;
+  width: 22em;
+  border-radius: 1em;
+  margin-top: 3em;
+  box-shadow: 2.5px 5px 4px 5px #2f2626;
+}
+
+.about-content img:nth-child(2) {
+  float: right;
+  width: 20em;
+  margin-top: -8em;
+  margin-right: 3em;
+}
+
+span {
+  font-weight: 900;
+  font-size: 1.2em;
+}

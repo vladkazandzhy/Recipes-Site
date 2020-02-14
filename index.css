@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #fffff0;
+  min-width: 18.75em;
+}
+
+@media only screen and (min-width: 930px) {
+  body {
+    background-image: url("images/food_wallpaper.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .container,
+  nav {
+    width: 90%;
+  }
+}
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 57.78em;
+  background-color: #fffff0;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+#logo {
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin-top: -0.5em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  border-right: 1px solid;
+}
+
+nav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #c5aa6a;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+li a:hover {
+  color: green;
+}
+
+.copyright {
+  color: #c5aa6a;
+  font-size: 1.3em;
+  font-weight: 500;
+  margin-left: 2em;
+}
+
+.padding-left {
+  padding-left: 0.625em;
+}
+
+nav {
+  background-color: #2f2626;
+  height: 5em;
+  padding: 1.5em 0;
+  color: #5f4c4c;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.vertical-list {
+  padding-top: 3em;
+}
+
+.vertical-list a {
+  display: block; /* Make the links appear below each other */
+  padding: 0.5em; /* Add some padding */
+}
+
+.footer {
+  height: 20em;
+  background-color: #2f2626;
+  min-width: 18.75em;
+  z-index: 1000;
+}
+
+.footer-content {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}

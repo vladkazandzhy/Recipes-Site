@@ -1,0 +1,130 @@
+@media only screen and (min-width: 500px) {
+  .container {
+    height: 50em;
+  }
+
+  #recipe {
+    float: left;
+    width: 20em;
+    margin-top: 4em;
+    margin-left: 4em;
+    box-shadow: 1px 2px 2px 2px #2f2626;
+  }
+
+  .recipe-info {
+    float: right;
+    margin-top: 5em;
+    width: 30em;
+  }
+
+  h1 {
+    font-size: 3em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+  }
+
+  #recipe-synopsis {
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fffff0;
+    font-size: 1.5em;
+    height: 2.5em;
+    width: 8em;
+    margin-top: 1em;
+    border: 1px solid #4caf50;
+    box-shadow: 1px 2px 2px 2px darkgreen;
+  }
+
+  button:hover {
+    background-color: #228b22;
+    transform: scale(1.1);
+  }
+
+  .recipe-extra-info {
+    clear: both;
+    margin-left: 7%;
+    margin-right: 5%;
+    padding-top: 2em;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .extra-info {
+    width: 30%;
+    margin-right: 2.5%;
+  }
+
+  .extra-link {
+    width: 30%;
+    margin-right: 6%;
+  }
+
+  .important-info {
+    width: 27%;
+  }
+
+  .important-info p {
+    color: red;
+  }
+
+  .extra-info-text {
+    font-size: 1.2em;
+    font-family: sans-serif;
+  }
+
+  h2 {
+    font-weight: 900;
+    font-size: 1.2em;
+    font-family: sans-serif;
+  }
+
+  .recipes {
+    background-color: #f5deb3;
+    height: 28em;
+  }
+
+  #mailing-list-btn {
+    background-color: #ff9f00;
+    width: 14em;
+    margin-right: 1em;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+      0px 18px 23px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ff9f00;
+    box-shadow: 1px 2px 2px 2px darkgray;
+  }
+
+  #mailing-list-btn:hover {
+    background-color: #f28500;
+  }
+
+  .mailing-list {
+    width: 40em;
+    margin: 0 auto;
+  }
+
+  input[type="email"] {
+    width: 15em;
+    height: 3.4em;
+    line-height: 1em;
+    padding-left: 1em;
+    font-size: 1.1em;
+  }
+
+  input[type="email"]::placeholder {
+    font-size: 1.5em;
+  }
+
+  input[type="email"]:focus {
+    outline: 2px solid light blue;
+  }
+
+  li {
+    font-size: 1.1em;
+  }
+}
