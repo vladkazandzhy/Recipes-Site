@@ -1,7 +1,3 @@
-.container {
-  height: 37em;
-}
-
 h1 {
   margin-bottom: 1em;
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
@@ -18,7 +14,10 @@ h1 {
 
 .contact_us {
   margin: 0 auto;
+  padding-bottom: 3em;
   width: 35.2em;
+  height: auto;
+  overflow: hidden;
 }
 
 fieldset {
@@ -27,7 +26,7 @@ fieldset {
   width: 100%;
   border-radius: 1em;
   background-image: url("images/contact.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 5px 10px 8px 10px #2f2626;
 }
@@ -69,4 +68,116 @@ label {
   display: inline-block;
   color: #fffff0;
   font-size: 1.2em;
+}
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  .contact_us_msg {
+    font-size: 0.9em;
+    width: 90%;
+  }
+
+  .contact_us {
+    width: 100%;
+  }
+
+  fieldset {
+    padding-left: 0;
+  }
+
+  .contact_us_form {
+    width: 90%;
+  }
+
+  textarea {
+    height: 4em;
+  }
+
+  button {
+    font-size: 1em;
+  }
+
+  .contact_us.padding-left {
+    padding-left: 3em;
+  }
+
+  input#name,
+  input#email,
+  textarea {
+    margin-bottom: 3em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  fieldset {
+    background-image: url("images/contact_sm.jpg");
+    height: 25em;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 100%;
+  }
+
+  textarea {
+    height: 6em;
+  }
+
+  .contact_us {
+    padding-bottom: 2em;
+    padding-left: 2em;
+  }
+
+  input#name,
+  input#email {
+    margin-bottom: 2em;
+  }
+
+  label {
+    margin-bottom: 0.1em;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  fieldset {
+    height: 25em;
+  }
+
+  .contact_us.padding-left {
+    padding-left: 2em;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .contact_us.padding-left {
+    padding-left: 1em;
+  }
+
+  .contact_us_form {
+    width: 94%;
+  }
+
+  .contact_us {
+    padding-bottom: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  input#name,
+  input#email {
+    margin-bottom: 1.2em;
+  }
+
+  textarea {
+    margin-bottom: 2em;
+  }
+
+  fieldset {
+    height: 23em;
+  }
 }

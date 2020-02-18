@@ -13,7 +13,6 @@ insertRandomRecipe = () => {
   let img = document.getElementById("recipe");
   img.setAttribute("src", `images/${recipes[randomNumber].img}`);
   img.setAttribute("alt", `${recipes[randomNumber].name}`);
-  console.log(img);
 
   let synopsis = document.getElementById("recipe-synopsis");
   synopsis.innerText = recipes[randomNumber].synopsis;

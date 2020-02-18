@@ -20,6 +20,7 @@
   background-color: #f5deb3;
   margin-right: 3em;
   padding-left: 10%;
+  padding-right: 10%;
   padding-top: 1em;
   padding-bottom: 1em;
   box-shadow: 5px 10px 8px 10px #2f2626;
@@ -28,6 +29,10 @@
 p,
 li {
   font-family: sans-serif;
+}
+
+.copyright {
+  font-family: "Raleway";
 }
 
 #rcp1,
@@ -107,4 +112,165 @@ a {
   color: blue;
   display: none;
   box-shadow: 1px 2px 2px 2px #2f2626;
+}
+
+@media only screen and (max-width: 930px) {
+  .container {
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+  #recipe-list {
+    font-size: 0.9em;
+  }
+
+  #rcp1,
+  #rcp2,
+  #rcp3,
+  #rcp4,
+  #rcp5 {
+    height: 2em;
+  }
+
+  .timeInfo {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #recipe-list {
+    font-size: 0.8em;
+  }
+
+  img {
+    width: 15em;
+    height: auto;
+  }
+
+  .recipe-content {
+    margin-right: 2em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    margin-top: 0;
+  }
+
+  .start,
+  .pause,
+  .continue {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    width: 100%;
+  }
+
+  .recipe-content {
+    margin-right: 1em;
+  }
+
+  #rcp1,
+  #rcp2,
+  #rcp3,
+  #rcp4,
+  #rcp5 {
+    height: 1em;
+  }
+
+  .start,
+  .pause,
+  .continue {
+    font-size: 1em;
+  }
+
+  .timeInfo {
+    font-size: 0.9em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  #recipe-list h2 {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .start,
+  .pause,
+  .continue {
+    font-size: 0.9em;
+  }
+
+  .timeInfo {
+    font-size: 0.8em;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .recipe-content {
+    margin-right: 0.8em;
+  }
+
+  .start,
+  .pause,
+  .continue {
+    font-size: 0.8em;
+  }
+
+  .timeInfo {
+    font-size: 0.7em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .start,
+  .pause,
+  .continue {
+    font-size: 0.7em;
+  }
+
+  .timeInfo {
+    font-size: 0.6em;
+  }
+
+  h1 {
+    font-size: 1.1em;
+  }
+
+  h3 {
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
 }

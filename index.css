@@ -1,8 +1,8 @@
 html,
 body {
   margin: 0;
-  height: 100%;
-  width: 100%;
+  /* height: 100%;
+  width: 100%; */
 }
 
 body {
@@ -22,7 +22,6 @@ nav ul li {
 
 nav li {
   display: inline;
- 
 }
 
 nav {
@@ -31,35 +30,15 @@ nav {
   padding: 1.5em;
   color: #5f4c4c;
   width: 100%;
-  position: fixed;
-  top: 0;
   z-index: 1000;
   min-width: 18.75em;
-}
-
-@media only screen and (max-width: 500px) {
-  nav {
-    height: 13.5em;
-  }
-
-  nav li {
-    display: block;
-    padding: 0.5em;
-    padding-left: 3em;
-  }
-
-  nav ul li {
-    border-right: 0;
-  }
 }
 
 ul {
   list-style-type: none;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
-
-
 
 li a {
   color: #c5aa6a;
@@ -76,34 +55,20 @@ li a:hover {
 * {
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
-  
 }
 
 .container {
-  width: 57.78em;
   background-color: #fffff0;
   margin: 0 auto;
-  margin-top: 5em;
   min-width: 18.75em;
-}
-
-@media only screen and (min-width: 930px) {
-  body {
-    background-image: url("images/food_wallpaper.jpg");
-    background-size: contain;
-    background-repeat: repeat;
-  }
+  max-width: 57em;
 }
 
 .footer {
-  height: 18em;
+  height: 18.5em;
   background-color: #2f2626;
   min-width: 18.75em;
   z-index: 1000;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
   min-width: 18.75em;
 }
 
@@ -116,11 +81,11 @@ li a:hover {
 
 .vertical-list {
   padding-top: 0.5em;
-} 
+}
 
 .vertical-list a {
-  display: block; 
-  padding: 0.5em; 
+  display: block;
+  padding: 0.5em;
 }
 
 .copyright {
@@ -132,4 +97,42 @@ li a:hover {
 
 .padding-left {
   padding-left: 0.625em;
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    height: 11em;
+    padding-top: 1em;
+  }
+
+  #navContainer ul {
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    padding: 0.4em;
+  }
+
+  nav ul li {
+    border-right: 0;
+    font-size: 0.9em;
+  }
+
+  .vertical-list li a {
+    padding: 0.3em;
+    font-size: 1.1em;
+  }
+
+  .footer {
+    height: 15em;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  body {
+    background-image: url("images/food_wallpaper.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+  }
 }
